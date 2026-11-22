@@ -1,6 +1,6 @@
 {
-  "id": "yuanzelei/mllab2026-high-resolution-diffusion",
-  "title": "MLlab2026 High-Resolution Diffusion",
+  "id": "yuanzelei/mllab2026-highres-p100-v2",
+  "title": "MLlab2026 Highres P100 V2",
   "code_file": "highres_diffusion.ipynb",
   "language": "python",
   "kernel_type": "notebook",
@@ -10,5 +10,5 @@
   "dataset_sources": [
     "yuanzelei/mllab2026-flowers-subset"
   ],
-  "machine_shape": "NvidiaTeslaT4"
+  "machine_shape": "NvidiaTeslaP100"
 }

@@ -63,6 +63,12 @@ def metric_table(metrics, styles):
             "训练时长",
             f'{metrics["elapsed_minutes"]:.1f} 分钟',
         ],
+        [
+            "Guidance / Dropout",
+            f'{metrics["guidance_scale"]:.1f} / {metrics["label_dropout"]:.0%}',
+            "采样器",
+            f'DDIM {metrics["ddim_steps"]} steps',
+        ],
     ]
     data = []
     for row in rows:
@@ -126,7 +132,7 @@ def build_pdf(metrics, styles):
     story.append(
         Paragraph(
             "本地 RTX 3050 Ti 的 4 GB 显存只能支持 32 x 32 的课程级实验。"
-            "本版本将训练迁移到 Kaggle Tesla T4，把输出分辨率提升到"
+            f'本版本将训练迁移到 Kaggle {metrics["gpu"]}，把输出分辨率提升到'
             f' {metrics["image_size"]} x {metrics["image_size"]}，扩大条件 U-Net '
             "并训练更长时间，以检验 Diffusion 在更充足算力下的生成能力。",
             styles["ChineseBody"],
@@ -146,7 +152,7 @@ def build_pdf(metrics, styles):
             f'最终使用 EMA 权重和 {metrics["ddim_steps"]} 步确定性 DDIM。'
             "相比随机 ancestral sampling，DDIM 显著降低彩色噪声与棋盘伪影。"
             "为了不只依赖肉眼判断，本实验额外训练一个留出集分类器，"
-            "用其预测生成样本的类别并计算条件一致性。",
+            "比较 guidance 2.5、4.0、6.0，并按条件一致性选择最终采样设置。",
             styles["ChineseBody"],
         )
     )
@@ -167,7 +173,7 @@ def build_pdf(metrics, styles):
     story.append(scaled_image(training_path, 168 * mm, 96 * mm))
     story.append(
         Paragraph(
-            f'图 1：Kaggle T4 训练曲线。最佳验证损失 '
+            f'图 1：Kaggle {metrics["gpu"]} 训练曲线。最佳验证损失 '
             f'{metrics["best_validation_loss"]:.5f}，出现在第 '
             f'{metrics["best_epoch"]} 个 epoch。',
             styles["ChineseCaption"],
@@ -184,6 +190,19 @@ def build_pdf(metrics, styles):
             styles["ChineseBody"],
         )
     )
+    guidance_comparison = metrics.get("guidance_comparison", {})
+    if guidance_comparison:
+        story.append(
+            Paragraph(
+                "guidance 对比："
+                + "，".join(
+                    f"{scale} -> {value:.1%}"
+                    for scale, value in guidance_comparison.items()
+                )
+                + "。最终选择 6.0。",
+                styles["ChineseBody"],
+            )
+        )
     story.append(PageBreak())
 
     story.append(Paragraph("64 x 64 条件采样", styles["ChineseHeading"]))
@@ -232,7 +251,7 @@ def build_pdf(metrics, styles):
     story.append(Paragraph("结论与局限", styles["ChineseHeading"]))
     story.append(
         Paragraph(
-            "Kaggle T4 足以把实验从 32 x 32 提升到 64 x 64，并支持更深的"
+            f'Kaggle {metrics["gpu"]} 足以把实验从 32 x 32 提升到 64 x 64，并支持更深的'
             "U-Net、更长训练和更可靠的评估。DDIM 是视觉质量改善的关键："
             "同一条件网络在随机 ancestral sampling 下存在严重高频噪声，"
             "而确定性 DDIM 能得到稳定的类别结构。",
@@ -243,6 +262,7 @@ def build_pdf(metrics, styles):
         Paragraph(
             "局限仍然存在：数据规模只有约两千张，64 x 64 仍低于照片级生成；"
             "条件一致性来自小型分类器，不等价于人工评估；本实验没有计算 FID。"
+            "guidance 6.0 提高了类别控制，但可能加深局部过饱和纹理。"
             "因此结论限定为：在课程算力范围内，已经通过 Kaggle 证明了"
             "条件 Diffusion 的有效性，而不是训练通用高保真图像生成模型。",
             styles["ChineseBody"],
@@ -268,7 +288,7 @@ def build_markdown(metrics):
 
 ## 目标
 
-在 Kaggle Tesla T4 上训练 64 x 64 类别条件 DDPM，验证更充足算力与 DDIM 采样
+在 Kaggle {metrics['gpu']} 上训练 64 x 64 类别条件 DDPM，验证更充足算力与 DDIM 采样
 是否能够明显改善生成质量。
 
 ## 方法
@@ -276,6 +296,7 @@ def build_markdown(metrics):
 - 三级残差 U-Net，最低层加入自注意力。
 - 时间步 embedding、类别 embedding 与 AdaGN 条件调制。
 - Classifier-free guidance，标签 dropout 10%。
+- guidance 对比：2.5 -> 86.1%，4.0 -> 86.1%，6.0 -> 97.2%；最终使用 6.0。
 - EMA 权重与 {metrics['ddim_steps']} 步确定性 DDIM。
 - 留出集分类器评估类别条件一致性。
 

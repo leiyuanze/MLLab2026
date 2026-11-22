@@ -11,6 +11,7 @@ import math
 import os
 import random
 import time
+import zipfile
 from pathlib import Path
 
 import matplotlib
@@ -32,7 +33,7 @@ SMOKE_TEST = os.getenv("SMOKE_TEST", "0") == "1"
 DATA_ROOT = Path(
     os.getenv(
         "DATA_ROOT",
-        "/kaggle/input/mllab2026-flowers-subset",
+        "/kaggle/input",
     )
 )
 OUTPUT_ROOT = Path(os.getenv("OUTPUT_ROOT", "/kaggle/working"))
@@ -70,8 +71,26 @@ if device.type == "cuda":
 # %%
 def find_imagefolder_root(root):
     root = Path(root)
-    candidates = [root]
-    candidates.extend(path.parent for path in root.rglob("*"))
+    search_roots = [root]
+    archives = list(root.rglob("*.zip"))
+    if archives:
+        if Path("/kaggle/input").exists():
+            extraction_root = Path("/tmp/mllab2026_dataset_extracted")
+        else:
+            extraction_root = OUTPUT_ROOT / "dataset_extracted"
+        extraction_root.mkdir(parents=True, exist_ok=True)
+        for archive_path in archives:
+            archive_output = extraction_root / archive_path.stem
+            archive_output.mkdir(parents=True, exist_ok=True)
+            print("extracting:", archive_path)
+            with zipfile.ZipFile(archive_path) as archive:
+                archive.extractall(archive_output)
+        search_roots.append(extraction_root)
+
+    candidates = []
+    for search_root in search_roots:
+        candidates.append(search_root)
+        candidates.extend(path.parent for path in search_root.rglob("*"))
     best = None
     best_classes = 0
     for candidate in candidates:

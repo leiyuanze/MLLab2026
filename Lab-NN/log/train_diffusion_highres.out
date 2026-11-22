@@ -1,0 +1,351 @@
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+0.00s - Debugger warning: It seems that frozen modules are being used, which may
+0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off
+0.00s - to python to disable frozen modules.
+0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.
+device: cuda
+gpu: Tesla T4
+gpu_memory_gb: 15.64
+imagefolder_root: /kaggle/input/datasets/yuanzelei/mllab2026-flowers-subset
+classes: ['astilbe', 'bellflower', 'calendula']
+train_images: 2070
+validation_images: 518
+model_parameters: 12406211
+epoch=1 train=0.33066 best_valid=inf elapsed_min=0.29
+epoch=2 train=0.15210 best_valid=inf elapsed_min=0.38
+epoch=3 train=0.13255 best_valid=inf elapsed_min=0.46
+epoch=4 train=0.11829 best_valid=inf elapsed_min=0.55
+epoch=5 train=0.11345 best_valid=inf elapsed_min=0.64
+epoch=6 train=0.10849 best_valid=inf elapsed_min=0.73
+epoch=7 train=0.10550 best_valid=inf elapsed_min=0.81
+epoch=8 train=0.10376 best_valid=inf elapsed_min=0.90
+epoch=9 train=0.10059 best_valid=inf elapsed_min=0.99
+epoch=10 train=0.09153 best_valid=0.54058 elapsed_min=1.10
+epoch=11 train=0.09628 best_valid=0.54058 elapsed_min=1.19
+epoch=12 train=0.09124 best_valid=0.54058 elapsed_min=1.28
+epoch=13 train=0.08973 best_valid=0.54058 elapsed_min=1.37
+epoch=14 train=0.09342 best_valid=0.54058 elapsed_min=1.46
+epoch=15 train=0.08844 best_valid=0.54058 elapsed_min=1.55
+epoch=16 train=0.09142 best_valid=0.54058 elapsed_min=1.64
+epoch=17 train=0.09360 best_valid=0.54058 elapsed_min=1.74
+epoch=18 train=0.08063 best_valid=0.54058 elapsed_min=1.83
+epoch=19 train=0.08506 best_valid=0.54058 elapsed_min=1.93
+epoch=20 train=0.08314 best_valid=0.25122 elapsed_min=2.03
+epoch=21 train=0.08501 best_valid=0.25122 elapsed_min=2.13
+epoch=22 train=0.08007 best_valid=0.25122 elapsed_min=2.22
+epoch=23 train=0.07788 best_valid=0.25122 elapsed_min=2.32
+epoch=24 train=0.08293 best_valid=0.25122 elapsed_min=2.41
+epoch=25 train=0.07774 best_valid=0.25122 elapsed_min=2.50
+epoch=26 train=0.08632 best_valid=0.25122 elapsed_min=2.59
+epoch=27 train=0.08246 best_valid=0.25122 elapsed_min=2.69
+epoch=28 train=0.07850 best_valid=0.25122 elapsed_min=2.78
+epoch=29 train=0.08136 best_valid=0.25122 elapsed_min=2.87
+epoch=30 train=0.08016 best_valid=0.14696 elapsed_min=2.97
+epoch=31 train=0.07893 best_valid=0.14696 elapsed_min=3.06
+epoch=32 train=0.07777 best_valid=0.14696 elapsed_min=3.16
+epoch=33 train=0.07726 best_valid=0.14696 elapsed_min=3.25
+epoch=34 train=0.07862 best_valid=0.14696 elapsed_min=3.34
+epoch=35 train=0.07676 best_valid=0.14696 elapsed_min=3.44
+epoch=36 train=0.07801 best_valid=0.14696 elapsed_min=3.53
+epoch=37 train=0.07452 best_valid=0.14696 elapsed_min=3.62
+epoch=38 train=0.07660 best_valid=0.14696 elapsed_min=3.71
+epoch=39 train=0.08216 best_valid=0.14696 elapsed_min=3.81
+epoch=40 train=0.07489 best_valid=0.10635 elapsed_min=3.91
+epoch=41 train=0.07825 best_valid=0.10635 elapsed_min=4.00
+epoch=42 train=0.07512 best_valid=0.10635 elapsed_min=4.10
+epoch=43 train=0.07492 best_valid=0.10635 elapsed_min=4.19
+epoch=44 train=0.07466 best_valid=0.10635 elapsed_min=4.28
+epoch=45 train=0.07361 best_valid=0.10635 elapsed_min=4.37
+epoch=46 train=0.07625 best_valid=0.10635 elapsed_min=4.47
+epoch=47 train=0.07938 best_valid=0.10635 elapsed_min=4.56
+epoch=48 train=0.07118 best_valid=0.10635 elapsed_min=4.65
+epoch=49 train=0.07335 best_valid=0.10635 elapsed_min=4.74
+epoch=50 train=0.06946 best_valid=0.08519 elapsed_min=4.85
+epoch=51 train=0.06896 best_valid=0.08519 elapsed_min=4.94
+epoch=52 train=0.07080 best_valid=0.08519 elapsed_min=5.03
+epoch=53 train=0.07898 best_valid=0.08519 elapsed_min=5.12
+epoch=54 train=0.07293 best_valid=0.08519 elapsed_min=5.22
+epoch=55 train=0.07447 best_valid=0.08519 elapsed_min=5.31
+epoch=56 train=0.07419 best_valid=0.08519 elapsed_min=5.40
+epoch=57 train=0.06963 best_valid=0.08519 elapsed_min=5.50
+epoch=58 train=0.07810 best_valid=0.08519 elapsed_min=5.59
+epoch=59 train=0.07750 best_valid=0.08519 elapsed_min=5.68
+epoch=60 train=0.06969 best_valid=0.07935 elapsed_min=5.78
+epoch=61 train=0.07089 best_valid=0.07935 elapsed_min=5.88
+epoch=62 train=0.06870 best_valid=0.07935 elapsed_min=5.97
+epoch=63 train=0.06715 best_valid=0.07935 elapsed_min=6.06
+epoch=64 train=0.06657 best_valid=0.07935 elapsed_min=6.15
+epoch=65 train=0.07220 best_valid=0.07935 elapsed_min=6.25
+epoch=66 train=0.07503 best_valid=0.07935 elapsed_min=6.34
+epoch=67 train=0.07017 best_valid=0.07935 elapsed_min=6.43
+epoch=68 train=0.07079 best_valid=0.07935 elapsed_min=6.53
+epoch=69 train=0.07091 best_valid=0.07935 elapsed_min=6.62
+epoch=70 train=0.07421 best_valid=0.07834 elapsed_min=6.72
+epoch=71 train=0.06741 best_valid=0.07834 elapsed_min=6.82
+epoch=72 train=0.07229 best_valid=0.07834 elapsed_min=6.91
+epoch=73 train=0.07168 best_valid=0.07834 elapsed_min=7.00
+epoch=74 train=0.07347 best_valid=0.07834 elapsed_min=7.09
+epoch=75 train=0.07493 best_valid=0.07834 elapsed_min=7.19
+epoch=76 train=0.06845 best_valid=0.07834 elapsed_min=7.28
+epoch=77 train=0.07056 best_valid=0.07834 elapsed_min=7.37
+epoch=78 train=0.06958 best_valid=0.07834 elapsed_min=7.47
+epoch=79 train=0.06801 best_valid=0.07834 elapsed_min=7.56
+epoch=80 train=0.06943 best_valid=0.07493 elapsed_min=7.66
+epoch=81 train=0.07115 best_valid=0.07493 elapsed_min=7.75
+epoch=82 train=0.07054 best_valid=0.07493 elapsed_min=7.85
+epoch=83 train=0.06701 best_valid=0.07493 elapsed_min=7.94
+epoch=84 train=0.07060 best_valid=0.07493 elapsed_min=8.03
+epoch=85 train=0.06863 best_valid=0.07493 elapsed_min=8.13
+epoch=86 train=0.06716 best_valid=0.07493 elapsed_min=8.22
+epoch=87 train=0.06870 best_valid=0.07493 elapsed_min=8.31
+epoch=88 train=0.07147 best_valid=0.07493 elapsed_min=8.41
+epoch=89 train=0.07175 best_valid=0.07493 elapsed_min=8.50
+epoch=90 train=0.06927 best_valid=0.07484 elapsed_min=8.60
+epoch=91 train=0.06602 best_valid=0.07484 elapsed_min=8.69
+epoch=92 train=0.06754 best_valid=0.07484 elapsed_min=8.79
+epoch=93 train=0.06773 best_valid=0.07484 elapsed_min=8.88
+epoch=94 train=0.06812 best_valid=0.07484 elapsed_min=8.97
+epoch=95 train=0.07243 best_valid=0.07484 elapsed_min=9.07
+epoch=96 train=0.06463 best_valid=0.07484 elapsed_min=9.16
+epoch=97 train=0.06708 best_valid=0.07484 elapsed_min=9.25
+epoch=98 train=0.06735 best_valid=0.07484 elapsed_min=9.35
+epoch=99 train=0.06545 best_valid=0.07484 elapsed_min=9.44
+epoch=100 train=0.06909 best_valid=0.06970 elapsed_min=9.54
+epoch=101 train=0.06625 best_valid=0.06970 elapsed_min=9.63
+epoch=102 train=0.06333 best_valid=0.06970 elapsed_min=9.73
+epoch=103 train=0.06635 best_valid=0.06970 elapsed_min=9.82
+epoch=104 train=0.06708 best_valid=0.06970 elapsed_min=9.91
+epoch=105 train=0.07039 best_valid=0.06970 elapsed_min=10.01
+epoch=106 train=0.06815 best_valid=0.06970 elapsed_min=10.10
+epoch=107 train=0.06827 best_valid=0.06970 elapsed_min=10.19
+epoch=108 train=0.06797 best_valid=0.06970 elapsed_min=10.29
+epoch=109 train=0.06678 best_valid=0.06970 elapsed_min=10.38
+epoch=110 train=0.06713 best_valid=0.06947 elapsed_min=10.48
+epoch=111 train=0.06756 best_valid=0.06947 elapsed_min=10.58
+epoch=112 train=0.07017 best_valid=0.06947 elapsed_min=10.67
+epoch=113 train=0.06972 best_valid=0.06947 elapsed_min=10.76
+epoch=114 train=0.06825 best_valid=0.06947 elapsed_min=10.85
+epoch=115 train=0.06690 best_valid=0.06947 elapsed_min=10.95
+epoch=116 train=0.06726 best_valid=0.06947 elapsed_min=11.04
+epoch=117 train=0.06523 best_valid=0.06947 elapsed_min=11.13
+epoch=118 train=0.06922 best_valid=0.06947 elapsed_min=11.23
+epoch=119 train=0.06877 best_valid=0.06947 elapsed_min=11.32
+epoch=120 train=0.06589 best_valid=0.06947 elapsed_min=11.42
+epoch=121 train=0.06883 best_valid=0.06947 elapsed_min=11.51
+epoch=122 train=0.06453 best_valid=0.06947 elapsed_min=11.61
+epoch=123 train=0.06601 best_valid=0.06947 elapsed_min=11.70
+epoch=124 train=0.06683 best_valid=0.06947 elapsed_min=11.79
+epoch=125 train=0.06428 best_valid=0.06947 elapsed_min=11.88
+epoch=126 train=0.06406 best_valid=0.06947 elapsed_min=11.98
+epoch=127 train=0.06683 best_valid=0.06947 elapsed_min=12.07
+epoch=128 train=0.06841 best_valid=0.06947 elapsed_min=12.16
+epoch=129 train=0.06984 best_valid=0.06947 elapsed_min=12.26
+epoch=130 train=0.06410 best_valid=0.06947 elapsed_min=12.36
+epoch=131 train=0.06630 best_valid=0.06947 elapsed_min=12.45
+epoch=132 train=0.06721 best_valid=0.06947 elapsed_min=12.54
+epoch=133 train=0.06957 best_valid=0.06947 elapsed_min=12.63
+epoch=134 train=0.06967 best_valid=0.06947 elapsed_min=12.73
+epoch=135 train=0.07268 best_valid=0.06947 elapsed_min=12.82
+epoch=136 train=0.06573 best_valid=0.06947 elapsed_min=12.91
+epoch=137 train=0.06171 best_valid=0.06947 elapsed_min=13.01
+epoch=138 train=0.06548 best_valid=0.06947 elapsed_min=13.10
+epoch=139 train=0.06918 best_valid=0.06947 elapsed_min=13.19
+epoch=140 train=0.06964 best_valid=0.06508 elapsed_min=13.30
+epoch=141 train=0.06922 best_valid=0.06508 elapsed_min=13.39
+epoch=142 train=0.06801 best_valid=0.06508 elapsed_min=13.48
+epoch=143 train=0.06549 best_valid=0.06508 elapsed_min=13.57
+epoch=144 train=0.06454 best_valid=0.06508 elapsed_min=13.67
+epoch=145 train=0.06524 best_valid=0.06508 elapsed_min=13.76
+epoch=146 train=0.06422 best_valid=0.06508 elapsed_min=13.85
+epoch=147 train=0.06760 best_valid=0.06508 elapsed_min=13.95
+epoch=148 train=0.06660 best_valid=0.06508 elapsed_min=14.04
+epoch=149 train=0.06881 best_valid=0.06508 elapsed_min=14.13
+epoch=150 train=0.06431 best_valid=0.06508 elapsed_min=14.23
+epoch=151 train=0.06238 best_valid=0.06508 elapsed_min=14.33
+epoch=152 train=0.06599 best_valid=0.06508 elapsed_min=14.42
+epoch=153 train=0.06751 best_valid=0.06508 elapsed_min=14.51
+epoch=154 train=0.06769 best_valid=0.06508 elapsed_min=14.60
+epoch=155 train=0.06775 best_valid=0.06508 elapsed_min=14.70
+epoch=156 train=0.06389 best_valid=0.06508 elapsed_min=14.79
+epoch=157 train=0.06737 best_valid=0.06508 elapsed_min=14.88
+epoch=158 train=0.06455 best_valid=0.06508 elapsed_min=14.97
+epoch=159 train=0.06299 best_valid=0.06508 elapsed_min=15.07
+epoch=160 train=0.06498 best_valid=0.06508 elapsed_min=15.17
+epoch=161 train=0.06496 best_valid=0.06508 elapsed_min=15.26
+epoch=162 train=0.06301 best_valid=0.06508 elapsed_min=15.35
+epoch=163 train=0.06837 best_valid=0.06508 elapsed_min=15.45
+epoch=164 train=0.06664 best_valid=0.06508 elapsed_min=15.54
+epoch=165 train=0.06592 best_valid=0.06508 elapsed_min=15.63
+epoch=166 train=0.06694 best_valid=0.06508 elapsed_min=15.72
+epoch=167 train=0.06716 best_valid=0.06508 elapsed_min=15.82
+epoch=168 train=0.06734 best_valid=0.06508 elapsed_min=15.91
+epoch=169 train=0.06584 best_valid=0.06508 elapsed_min=16.00
+epoch=170 train=0.06651 best_valid=0.05919 elapsed_min=16.10
+epoch=171 train=0.06564 best_valid=0.05919 elapsed_min=16.20
+epoch=172 train=0.06762 best_valid=0.05919 elapsed_min=16.29
+epoch=173 train=0.06562 best_valid=0.05919 elapsed_min=16.38
+epoch=174 train=0.06641 best_valid=0.05919 elapsed_min=16.47
+epoch=175 train=0.06706 best_valid=0.05919 elapsed_min=16.57
+epoch=176 train=0.06287 best_valid=0.05919 elapsed_min=16.66
+epoch=177 train=0.06858 best_valid=0.05919 elapsed_min=16.75
+epoch=178 train=0.06574 best_valid=0.05919 elapsed_min=16.85
+epoch=179 train=0.06758 best_valid=0.05919 elapsed_min=16.94
+epoch=180 train=0.06267 best_valid=0.05919 elapsed_min=17.04
+epoch=181 train=0.06320 best_valid=0.05919 elapsed_min=17.13
+epoch=182 train=0.06459 best_valid=0.05919 elapsed_min=17.22
+epoch=183 train=0.06265 best_valid=0.05919 elapsed_min=17.32
+epoch=184 train=0.06588 best_valid=0.05919 elapsed_min=17.41
+epoch=185 train=0.06638 best_valid=0.05919 elapsed_min=17.50
+epoch=186 train=0.06249 best_valid=0.05919 elapsed_min=17.59
+epoch=187 train=0.05970 best_valid=0.05919 elapsed_min=17.69
+epoch=188 train=0.06525 best_valid=0.05919 elapsed_min=17.78
+epoch=189 train=0.06686 best_valid=0.05919 elapsed_min=17.87
+epoch=190 train=0.06526 best_valid=0.05919 elapsed_min=17.97
+epoch=191 train=0.06640 best_valid=0.05919 elapsed_min=18.07
+epoch=192 train=0.06505 best_valid=0.05919 elapsed_min=18.16
+epoch=193 train=0.06589 best_valid=0.05919 elapsed_min=18.25
+epoch=194 train=0.06897 best_valid=0.05919 elapsed_min=18.34
+epoch=195 train=0.06681 best_valid=0.05919 elapsed_min=18.44
+epoch=196 train=0.06373 best_valid=0.05919 elapsed_min=18.53
+epoch=197 train=0.06415 best_valid=0.05919 elapsed_min=18.62
+epoch=198 train=0.06601 best_valid=0.05919 elapsed_min=18.71
+epoch=199 train=0.06454 best_valid=0.05919 elapsed_min=18.81
+epoch=200 train=0.06126 best_valid=0.05919 elapsed_min=18.91
+epoch=201 train=0.06471 best_valid=0.05919 elapsed_min=19.00
+epoch=202 train=0.06585 best_valid=0.05919 elapsed_min=19.09
+epoch=203 train=0.06483 best_valid=0.05919 elapsed_min=19.18
+epoch=204 train=0.06559 best_valid=0.05919 elapsed_min=19.28
+epoch=205 train=0.06508 best_valid=0.05919 elapsed_min=19.37
+epoch=206 train=0.06512 best_valid=0.05919 elapsed_min=19.46
+epoch=207 train=0.06540 best_valid=0.05919 elapsed_min=19.55
+epoch=208 train=0.06116 best_valid=0.05919 elapsed_min=19.65
+epoch=209 train=0.06486 best_valid=0.05919 elapsed_min=19.74
+epoch=210 train=0.06327 best_valid=0.05919 elapsed_min=19.84
+epoch=211 train=0.06184 best_valid=0.05919 elapsed_min=19.93
+epoch=212 train=0.06591 best_valid=0.05919 elapsed_min=20.02
+epoch=213 train=0.06467 best_valid=0.05919 elapsed_min=20.12
+epoch=214 train=0.06319 best_valid=0.05919 elapsed_min=20.21
+epoch=215 train=0.06462 best_valid=0.05919 elapsed_min=20.30
+epoch=216 train=0.06526 best_valid=0.05919 elapsed_min=20.39
+epoch=217 train=0.06616 best_valid=0.05919 elapsed_min=20.49
+epoch=218 train=0.06224 best_valid=0.05919 elapsed_min=20.58
+epoch=219 train=0.06628 best_valid=0.05919 elapsed_min=20.67
+epoch=220 train=0.06393 best_valid=0.05919 elapsed_min=20.77
+epoch=221 train=0.06497 best_valid=0.05919 elapsed_min=20.86
+epoch=222 train=0.06144 best_valid=0.05919 elapsed_min=20.96
+epoch=223 train=0.06337 best_valid=0.05919 elapsed_min=21.05
+epoch=224 train=0.06575 best_valid=0.05919 elapsed_min=21.14
+epoch=225 train=0.06137 best_valid=0.05919 elapsed_min=21.24
+epoch=226 train=0.06401 best_valid=0.05919 elapsed_min=21.33
+epoch=227 train=0.06713 best_valid=0.05919 elapsed_min=21.42
+epoch=228 train=0.06590 best_valid=0.05919 elapsed_min=21.51
+epoch=229 train=0.06540 best_valid=0.05919 elapsed_min=21.61
+epoch=230 train=0.06258 best_valid=0.05919 elapsed_min=21.71
+epoch=231 train=0.06587 best_valid=0.05919 elapsed_min=21.80
+epoch=232 train=0.06196 best_valid=0.05919 elapsed_min=21.89
+epoch=233 train=0.06417 best_valid=0.05919 elapsed_min=21.98
+epoch=234 train=0.06292 best_valid=0.05919 elapsed_min=22.08
+epoch=235 train=0.06153 best_valid=0.05919 elapsed_min=22.17
+epoch=236 train=0.06496 best_valid=0.05919 elapsed_min=22.26
+epoch=237 train=0.06329 best_valid=0.05919 elapsed_min=22.35
+epoch=238 train=0.06656 best_valid=0.05919 elapsed_min=22.45
+epoch=239 train=0.06291 best_valid=0.05919 elapsed_min=22.54
+epoch=240 train=0.07008 best_valid=0.05919 elapsed_min=22.64
+epoch=241 train=0.06296 best_valid=0.05919 elapsed_min=22.73
+epoch=242 train=0.06360 best_valid=0.05919 elapsed_min=22.82
+epoch=243 train=0.06435 best_valid=0.05919 elapsed_min=22.92
+epoch=244 train=0.06636 best_valid=0.05919 elapsed_min=23.01
+epoch=245 train=0.06450 best_valid=0.05919 elapsed_min=23.10
+epoch=246 train=0.06425 best_valid=0.05919 elapsed_min=23.19
+epoch=247 train=0.06600 best_valid=0.05919 elapsed_min=23.29
+epoch=248 train=0.06296 best_valid=0.05919 elapsed_min=23.38
+epoch=249 train=0.06356 best_valid=0.05919 elapsed_min=23.47
+epoch=250 train=0.06496 best_valid=0.05919 elapsed_min=23.57
+epoch=251 train=0.06444 best_valid=0.05919 elapsed_min=23.66
+epoch=252 train=0.06645 best_valid=0.05919 elapsed_min=23.76
+epoch=253 train=0.06153 best_valid=0.05919 elapsed_min=23.85
+epoch=254 train=0.06199 best_valid=0.05919 elapsed_min=23.94
+epoch=255 train=0.06282 best_valid=0.05919 elapsed_min=24.03
+epoch=256 train=0.06432 best_valid=0.05919 elapsed_min=24.13
+epoch=257 train=0.06443 best_valid=0.05919 elapsed_min=24.22
+epoch=258 train=0.06517 best_valid=0.05919 elapsed_min=24.31
+epoch=259 train=0.06127 best_valid=0.05919 elapsed_min=24.40
+epoch=260 train=0.06277 best_valid=0.05919 elapsed_min=24.50
+epoch=261 train=0.06542 best_valid=0.05919 elapsed_min=24.60
+epoch=262 train=0.06172 best_valid=0.05919 elapsed_min=24.69
+epoch=263 train=0.06137 best_valid=0.05919 elapsed_min=24.78
+epoch=264 train=0.06260 best_valid=0.05919 elapsed_min=24.87
+epoch=265 train=0.05990 best_valid=0.05919 elapsed_min=24.96
+epoch=266 train=0.06459 best_valid=0.05919 elapsed_min=25.06
+epoch=267 train=0.06401 best_valid=0.05919 elapsed_min=25.15
+epoch=268 train=0.06393 best_valid=0.05919 elapsed_min=25.24
+epoch=269 train=0.05987 best_valid=0.05919 elapsed_min=25.33
+epoch=270 train=0.06440 best_valid=0.05733 elapsed_min=25.43
+epoch=271 train=0.06567 best_valid=0.05733 elapsed_min=25.53
+epoch=272 train=0.06224 best_valid=0.05733 elapsed_min=25.62
+epoch=273 train=0.06117 best_valid=0.05733 elapsed_min=25.71
+epoch=274 train=0.06330 best_valid=0.05733 elapsed_min=25.80
+epoch=275 train=0.06333 best_valid=0.05733 elapsed_min=25.90
+epoch=276 train=0.06353 best_valid=0.05733 elapsed_min=25.99
+epoch=277 train=0.06488 best_valid=0.05733 elapsed_min=26.08
+epoch=278 train=0.06010 best_valid=0.05733 elapsed_min=26.17
+epoch=279 train=0.06574 best_valid=0.05733 elapsed_min=26.27
+epoch=280 train=0.06485 best_valid=0.05733 elapsed_min=26.37
+epoch=281 train=0.06277 best_valid=0.05733 elapsed_min=26.46
+epoch=282 train=0.07213 best_valid=0.05733 elapsed_min=26.55
+epoch=283 train=0.06511 best_valid=0.05733 elapsed_min=26.64
+epoch=284 train=0.06442 best_valid=0.05733 elapsed_min=26.73
+epoch=285 train=0.06536 best_valid=0.05733 elapsed_min=26.83
+epoch=286 train=0.06602 best_valid=0.05733 elapsed_min=26.92
+epoch=287 train=0.06176 best_valid=0.05733 elapsed_min=27.01
+epoch=288 train=0.06519 best_valid=0.05733 elapsed_min=27.10
+epoch=289 train=0.06405 best_valid=0.05733 elapsed_min=27.20
+epoch=290 train=0.06392 best_valid=0.05733 elapsed_min=27.30
+epoch=291 train=0.06156 best_valid=0.05733 elapsed_min=27.39
+epoch=292 train=0.06540 best_valid=0.05733 elapsed_min=27.48
+epoch=293 train=0.06300 best_valid=0.05733 elapsed_min=27.57
+epoch=294 train=0.06221 best_valid=0.05733 elapsed_min=27.67
+epoch=295 train=0.06231 best_valid=0.05733 elapsed_min=27.76
+epoch=296 train=0.06458 best_valid=0.05733 elapsed_min=27.85
+epoch=297 train=0.06092 best_valid=0.05733 elapsed_min=27.94
+epoch=298 train=0.06738 best_valid=0.05733 elapsed_min=28.04
+epoch=299 train=0.06545 best_valid=0.05733 elapsed_min=28.13
+epoch=300 train=0.06297 best_valid=0.05733 elapsed_min=28.23
+{
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "classes": [
+    "astilbe",
+    "bellflower",
+    "calendula"
+  ],
+  "train_images": 2070,
+  "validation_images": 518,
+  "image_size": 64,
+  "num_steps": 1000,
+  "ddim_steps": 100,
+  "batch_size": 32,
+  "base_channels": 64,
+  "max_epochs": 300,
+  "completed_epochs": 300,
+  "best_epoch": 270,
+  "best_validation_loss": 0.05732884455253096,
+  "final_train_loss": 0.06296788517099161,
+  "guidance_scale": 2.5,
+  "label_dropout": 0.1,
+  "ema_decay": 0.9995,
+  "classifier_validation_accuracy": 0.9034749034749034,
+  "conditional_consistency": 0.5,
+  "elapsed_minutes": 28.548458854357403
+}
+/usr/local/lib/python3.13/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\|'
+  cells[i][c] = re.sub('\\\\\|', '|', cell)
+/usr/local/lib/python3.13/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\_'
+  text = re.sub(r'_', '\_', text) # Escape underscores in display text
+[NbConvertApp] Converting notebook __notebook__.ipynb to notebook
+[NbConvertApp] Writing 3583060 bytes to __notebook__.ipynb
+[NbConvertApp] Converting notebook __notebook__.ipynb to html
+[NbConvertApp] Writing 3262392 bytes to __results__.html
