@@ -1,0 +1,14 @@
+{
+  "id": "yuanzelei/mllab2026-high-resolution-diffusion",
+  "title": "MLlab2026 High-Resolution Diffusion",
+  "code_file": "highres_diffusion.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": false,
+  "dataset_sources": [
+    "yuanzelei/mllab2026-flowers-subset"
+  ],
+  "machine_shape": "NvidiaTeslaT4"
+}
