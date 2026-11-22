@@ -1,0 +1,184 @@
+Using device: cuda
+Epoch 001/180 | train=0.29425 | valid=0.93999 | best=0.93999
+Epoch 002/180 | train=0.17206
+Epoch 003/180 | train=0.15339
+Epoch 004/180 | train=0.14502
+Epoch 005/180 | train=0.13758 | valid=0.31600 | best=0.31600
+Epoch 006/180 | train=0.12816
+Epoch 007/180 | train=0.12311
+Epoch 008/180 | train=0.13130
+Epoch 009/180 | train=0.11875
+Epoch 010/180 | train=0.12164 | valid=0.15763 | best=0.15763
+Epoch 011/180 | train=0.11652
+Epoch 012/180 | train=0.11768
+Epoch 013/180 | train=0.11531
+Epoch 014/180 | train=0.11090
+Epoch 015/180 | train=0.11472 | valid=0.13109 | best=0.13109
+Epoch 016/180 | train=0.11184
+Epoch 017/180 | train=0.11343
+Epoch 018/180 | train=0.10936
+Epoch 019/180 | train=0.11801
+Epoch 020/180 | train=0.10572 | valid=0.11090 | best=0.11090
+Epoch 021/180 | train=0.10934
+Epoch 022/180 | train=0.10411
+Epoch 023/180 | train=0.09787
+Epoch 024/180 | train=0.10839
+Epoch 025/180 | train=0.10474 | valid=0.09697 | best=0.09697
+Epoch 026/180 | train=0.10504
+Epoch 027/180 | train=0.09870
+Epoch 028/180 | train=0.10321
+Epoch 029/180 | train=0.10165
+Epoch 030/180 | train=0.10888 | valid=0.09745 | best=0.09697
+Epoch 031/180 | train=0.09840
+Epoch 032/180 | train=0.10412
+Epoch 033/180 | train=0.09862
+Epoch 034/180 | train=0.10275
+Epoch 035/180 | train=0.09745 | valid=0.09444 | best=0.09444
+Epoch 036/180 | train=0.09997
+Epoch 037/180 | train=0.10124
+Epoch 038/180 | train=0.10020
+Epoch 039/180 | train=0.10073
+Epoch 040/180 | train=0.10389 | valid=0.09060 | best=0.09060
+Epoch 041/180 | train=0.10015
+Epoch 042/180 | train=0.09443
+Epoch 043/180 | train=0.09896
+Epoch 044/180 | train=0.09600
+Epoch 045/180 | train=0.09048 | valid=0.10962 | best=0.09060
+Epoch 046/180 | train=0.10367
+Epoch 047/180 | train=0.09960
+Epoch 048/180 | train=0.10050
+Epoch 049/180 | train=0.09989
+Epoch 050/180 | train=0.09931 | valid=0.09557 | best=0.09060
+Epoch 051/180 | train=0.10386
+Epoch 052/180 | train=0.09800
+Epoch 053/180 | train=0.09295
+Epoch 054/180 | train=0.08767
+Epoch 055/180 | train=0.09399 | valid=0.09498 | best=0.09060
+Epoch 056/180 | train=0.09882
+Epoch 057/180 | train=0.09700
+Epoch 058/180 | train=0.10297
+Epoch 059/180 | train=0.09541
+Epoch 060/180 | train=0.09834 | valid=0.11023 | best=0.09060
+Epoch 061/180 | train=0.09946
+Epoch 062/180 | train=0.09093
+Epoch 063/180 | train=0.09321
+Epoch 064/180 | train=0.09826
+Epoch 065/180 | train=0.09563 | valid=0.08667 | best=0.08667
+Epoch 066/180 | train=0.09463
+Epoch 067/180 | train=0.09397
+Epoch 068/180 | train=0.09244
+Epoch 069/180 | train=0.09365
+Epoch 070/180 | train=0.09463 | valid=0.08679 | best=0.08667
+Epoch 071/180 | train=0.09246
+Epoch 072/180 | train=0.09358
+Epoch 073/180 | train=0.09032
+Epoch 074/180 | train=0.08854
+Epoch 075/180 | train=0.09496 | valid=0.09880 | best=0.08667
+Epoch 076/180 | train=0.09498
+Epoch 077/180 | train=0.10220
+Epoch 078/180 | train=0.09859
+Epoch 079/180 | train=0.09623
+Epoch 080/180 | train=0.09555 | valid=0.08796 | best=0.08667
+Epoch 081/180 | train=0.08879
+Epoch 082/180 | train=0.09259
+Epoch 083/180 | train=0.09648
+Epoch 084/180 | train=0.09513
+Epoch 085/180 | train=0.09327 | valid=0.08113 | best=0.08113
+Epoch 086/180 | train=0.09798
+Epoch 087/180 | train=0.08992
+Epoch 088/180 | train=0.09435
+Epoch 089/180 | train=0.09149
+Epoch 090/180 | train=0.09157 | valid=0.10530 | best=0.08113
+Epoch 091/180 | train=0.08718
+Epoch 092/180 | train=0.09480
+Epoch 093/180 | train=0.09762
+Epoch 094/180 | train=0.09192
+Epoch 095/180 | train=0.09027 | valid=0.09460 | best=0.08113
+Epoch 096/180 | train=0.09109
+Epoch 097/180 | train=0.09583
+Epoch 098/180 | train=0.08853
+Epoch 099/180 | train=0.08701
+Epoch 100/180 | train=0.09979 | valid=0.08171 | best=0.08113
+Epoch 101/180 | train=0.09253
+Epoch 102/180 | train=0.08911
+Epoch 103/180 | train=0.09115
+Epoch 104/180 | train=0.08515
+Epoch 105/180 | train=0.09212 | valid=0.10324 | best=0.08113
+Epoch 106/180 | train=0.08559
+Epoch 107/180 | train=0.09051
+Epoch 108/180 | train=0.08403
+Epoch 109/180 | train=0.09162
+Epoch 110/180 | train=0.08820 | valid=0.08937 | best=0.08113
+Epoch 111/180 | train=0.08250
+Epoch 112/180 | train=0.09168
+Epoch 113/180 | train=0.09746
+Epoch 114/180 | train=0.09153
+Epoch 115/180 | train=0.09115 | valid=0.08956 | best=0.08113
+Epoch 116/180 | train=0.08527
+Epoch 117/180 | train=0.09434
+Epoch 118/180 | train=0.09263
+Epoch 119/180 | train=0.09078
+Epoch 120/180 | train=0.09084 | valid=0.10407 | best=0.08113
+Epoch 121/180 | train=0.08830
+Epoch 122/180 | train=0.08940
+Epoch 123/180 | train=0.09066
+Epoch 124/180 | train=0.08622
+Epoch 125/180 | train=0.09060 | valid=0.08937 | best=0.08113
+Epoch 126/180 | train=0.08828
+Epoch 127/180 | train=0.09348
+Epoch 128/180 | train=0.08612
+Epoch 129/180 | train=0.08741
+Epoch 130/180 | train=0.08986 | valid=0.08151 | best=0.08113
+Epoch 131/180 | train=0.09023
+Epoch 132/180 | train=0.08770
+Epoch 133/180 | train=0.09270
+Epoch 134/180 | train=0.09021
+Epoch 135/180 | train=0.08295 | valid=0.09446 | best=0.08113
+Epoch 136/180 | train=0.08591
+Epoch 137/180 | train=0.09264
+Epoch 138/180 | train=0.09248
+Epoch 139/180 | train=0.09597
+Epoch 140/180 | train=0.09258 | valid=0.07481 | best=0.07481
+Epoch 141/180 | train=0.09008
+Epoch 142/180 | train=0.08042
+Epoch 143/180 | train=0.08863
+Epoch 144/180 | train=0.08554
+Epoch 145/180 | train=0.08521 | valid=0.09586 | best=0.07481
+Epoch 146/180 | train=0.08644
+Epoch 147/180 | train=0.08604
+Epoch 148/180 | train=0.08630
+Epoch 149/180 | train=0.08831
+Epoch 150/180 | train=0.08551 | valid=0.08673 | best=0.07481
+Epoch 151/180 | train=0.08791
+Epoch 152/180 | train=0.08779
+Epoch 153/180 | train=0.08637
+Epoch 154/180 | train=0.09466
+Epoch 155/180 | train=0.08788 | valid=0.09760 | best=0.07481
+Epoch 156/180 | train=0.08448
+Epoch 157/180 | train=0.09058
+Epoch 158/180 | train=0.08183
+Epoch 159/180 | train=0.08564
+Epoch 160/180 | train=0.08715 | valid=0.08416 | best=0.07481
+Epoch 161/180 | train=0.09179
+Epoch 162/180 | train=0.08491
+Epoch 163/180 | train=0.08751
+Epoch 164/180 | train=0.08638
+Epoch 165/180 | train=0.08204 | valid=0.09003 | best=0.07481
+Epoch 166/180 | train=0.08748
+Epoch 167/180 | train=0.08315
+Epoch 168/180 | train=0.08572
+Epoch 169/180 | train=0.08933
+Epoch 170/180 | train=0.08577 | valid=0.08686 | best=0.07481
+Epoch 171/180 | train=0.08139
+Epoch 172/180 | train=0.08858
+Epoch 173/180 | train=0.08656
+Epoch 174/180 | train=0.08507
+Epoch 175/180 | train=0.08784 | valid=0.08305 | best=0.07481
+Epoch 176/180 | train=0.08874
+Epoch 177/180 | train=0.09111
+Epoch 178/180 | train=0.08291
+Epoch 179/180 | train=0.08755
+Epoch 180/180 | train=0.08856 | valid=0.10042 | best=0.07481
+Saved model to ./model\BestModel_diffusion_conditional.pkl
+Saved metrics to ./log\diffusion_conditional_metrics.json
+Elapsed time: 14.44 minutes

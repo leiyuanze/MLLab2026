@@ -1,0 +1,27 @@
+{
+  "dataset": "./flowers",
+  "class_names": [
+    "astilbe",
+    "bellflower",
+    "calendula"
+  ],
+  "train_images": 2070,
+  "validation_images": 518,
+  "epochs": 180,
+  "image_size": 32,
+  "batch_size": 16,
+  "num_steps": 300,
+  "learning_rate": 0.0002,
+  "guidance_scale": 2.5,
+  "ema_decay": 0.999,
+  "label_dropout": 0.1,
+  "sampler": "DDIM",
+  "sample_steps": 100,
+  "best_epoch": 140,
+  "best_validation_loss": 0.07480606716126204,
+  "final_train_loss": 0.08856039474216791,
+  "elapsed_minutes": 14.4441801349322,
+  "samples_figure": "./vis\\diffusion_conditional_samples.png",
+  "denoising_figure": "./vis\\diffusion_conditional_denoising.png",
+  "training_curve": "./vis\\diffusion_conditional_training_curve.png"
+}
